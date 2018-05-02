@@ -1,8 +1,8 @@
 ---
 solr_workspace: /root
 
-solr_create_user: true
-solr_user: solr
+solr_create_user: false
+solr_user: archiveit
 
 solr_version: "4.2.0"
 solr_mirror: "https://archive.apache.org/dist"
@@ -19,7 +19,7 @@ solr_connect_host: localhost
 solr_port: "6983"
 
 solr_xms: "256M"
-solr_xmx: "512M"
+solr_xmx: "2500M"
 
 solr_timezone: "UTC"
 
